@@ -1,0 +1,14 @@
+[remap]
+
+importer="image"
+type="Image"
+uid="uid://djo238ap8p8wf"
+path="res://.godot/imported/whale.png-43104d3e6982c61181054fcecaab25f6.image"
+
+[deps]
+
+source_file="res://boids/res/whale.png"
+dest_files=["res://.godot/imported/whale.png-43104d3e6982c61181054fcecaab25f6.image"]
+
+[params]
+

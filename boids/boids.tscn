@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpsc7thjr7i85"]
+
+[ext_resource type="Script" path="res://boids/boids.gd" id="1_3h3qr"]
+
+[sub_resource type="Texture2DRD" id="Texture2DRD_yi57a"]
+
+[node name="Boids" type="Node2D"]
+script = ExtResource("1_3h3qr")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="RenderTarget" type="Sprite2D" parent="CanvasLayer"]
+texture = SubResource("Texture2DRD_yi57a")
+centered = false
